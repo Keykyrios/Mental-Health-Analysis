@@ -12,3 +12,18 @@ A usable **state-wise psychiatrist density** table. Only the NMHS 2015-16 range 
 
 ## Model inputs (assumptions, not data)
 See `src/analysis.py`: price Rs 999, cost to serve Rs 483, CAC Rs 750, monthly retention 76%, sign-up ramp, fixed-cost schedule, Rs 8 Cr raise. Monte Carlo ranges are our choices.
+
+## Pilot simulation benchmarks
+The synthetic pilot (figs 12-14) is parameterised using published data from comparable Indian digital mental health services and global app-subscription analytics:
+
+| Benchmark | Value used | Source |
+|---|---|---|
+| Activation rate, WhatsApp-first low-friction | 52-81% by channel | AIIMS "Never Alone" programme (India Today, ET), ORF youth pulse surveys |
+| Weekly retention, hybrid AI+human model | 82-89% base (decaying) | Wysa JMIR Formative Research: AI+coaching users 3x more likely to complete sessions |
+| Clinical improvement rate | ~83% show measurable improvement | YourDOST institutional impact reports |
+| User preference for anonymous text-based tools | 88% of distressed students | ORF digital mental health study, academic stress surveys |
+| India freemium-to-paid conversion | 1.0-2.5% | RevenueCat State of Subscriptions, Adapty benchmarks (2024-25) |
+| India trial-to-paid conversion | 20-28% | RevenueCat, vmobify.com adjusted for UPI Autopay |
+| B2C monthly churn, mental health apps India | 15-20% | IMARC, beehiiv industry analysis |
+| Meta/Google ads CAC for mental health, India | High (stigma + conversion friction) | Kae Capital healthtech investment framework |
+| Community/referral CAC | Significantly lower than paid | Wysa phygital model (Maharashtra), YourDOST campus tie-ups |

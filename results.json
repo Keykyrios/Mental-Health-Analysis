@@ -116,6 +116,59 @@
   "mc_prob_cash_negative_any_month_pct": 26.0,
   "mc_prob_cash_below_1cr_m24_pct": 54.1,
   "cash_surface_note": "grid retention 55-90%, CAC 400-1300",
-  "ltvcac_q85": 3.93,
-  "ltvcac_cac600": 3.45
+  "pilot": {
+    "total_signups": 120,
+    "activated": 73,
+    "activation_rate_pct": 60.8,
+    "week8_retained": 23,
+    "week8_retention_of_activated_pct": 31.5,
+    "median_sessions_per_user": 14.0,
+    "total_sessions": 1017,
+    "weekly_active_counts": [
+      73,
+      60,
+      53,
+      46,
+      39,
+      33,
+      30,
+      23
+    ],
+    "weekly_retention_of_activated": [
+      100.0,
+      82.2,
+      72.6,
+      63.0,
+      53.4,
+      45.2,
+      41.1,
+      31.5
+    ],
+    "baseline_gad7_mean": 12.9,
+    "final_gad7_mean": 9.8,
+    "gad7_mean_change": -3.1,
+    "baseline_phq9_mean": 11.2,
+    "final_phq9_mean": 8.3,
+    "phq9_mean_change": -2.9,
+    "clinically_meaningful_gad7_pct": 30.1,
+    "clinically_meaningful_phq9_pct": 23.3,
+    "would_pay_of_activated_pct": 28.8,
+    "median_price_willing": 699,
+    "price_distribution": {
+      "299": 1,
+      "499": 7,
+      "699": 6,
+      "799": 2,
+      "999": 5
+    },
+    "blended_cac": 446.0,
+    "cac_by_channel": {
+      "meta_ads": 969.0,
+      "college_whatsapp": 377.0,
+      "referral": 230.0
+    },
+    "implied_monthly_retention_pct": 53.5,
+    "revised_ltv_cac": 1.04,
+    "revised_payback_months": 2.06
+  }
 }
